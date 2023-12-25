@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-a-Sketch</title>
+    <link rel="shortcut icon" href="./images/icon.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -17,10 +18,10 @@
             <section class="active-text">
                 Click inside the grid to activate the pen.
             </section>
-            <input id="color" type="color">
-            <button id="color-btn">Color mode</button>
-            <button id="rainbown-btn">Rainbown mode</button>
-            <button id="eraser-btn">Eraser</button>
+            <input id="color" type="color" value="#325ebe">
+            <button id="color-btn" class="mode">Color mode</button>
+            <button id="rainbown-btn" class="mode">Rainbown mode</button>
+            <button id="eraser-btn" class="mode">Eraser</button>
             <button id="clear-btn">Clear All</button>
             <div>
                 <div id="size-bar"></div>
