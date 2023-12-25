@@ -98,7 +98,7 @@ button:hover
     color: #ffffff;
 }
 
-button:focus
+.mode:focus
 {
     background-color: #325ebe;
 }
